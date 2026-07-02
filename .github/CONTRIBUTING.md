@@ -2,10 +2,6 @@
 
 Thanks for your interest! This repo is intentionally tiny — two Markdown slash-command files — so contributing is simple.
 
-## Code of Conduct
-
-This project follows our [Code of Conduct](CODE_OF_CONDUCT.md). By participating you agree to uphold it.
-
 ## Trying your change
 
 There's no build or test suite. To test a change, copy the edited command file into your own Claude Code commands directory and use it:
