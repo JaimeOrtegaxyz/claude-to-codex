@@ -1,6 +1,6 @@
 # claude-to-codex
 
-I kept wanting a second opinion from [Codex](https://developers.openai.com/codex/cli) without leaving Claude Code. The naive version of that — pipe my prompt straight to `codex exec` — turned out useless: Codex only ever saw my one-liner plus the repo on disk, never the conversation I was actually having, so it kept confidently suggesting things we'd already ruled out. These two slash commands fix that: Claude briefs Codex on the live session first, *then* asks.
+Two slash commands for getting a second opinion from [Codex](https://developers.openai.com/codex/cli) without leaving Claude Code. Claude briefs Codex on the live session first, *then* asks — so Codex sees the conversation you're actually having, not just your one-liner and the repo.
 
 ## What's here
 
